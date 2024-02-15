@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+
+html{
+   scroll-behavior: smooth;;
+ }
+ body{
+     justify-content: center;
+     align-items: center;
+     display:block;
+ }
+ p{
+   font-family: 'Amatic SC', cursive;
+     font-size: 3vw;
+ }
+ a{
+   position: absolute;
+   height: 40px;
+   width: 40px;
+   border-radius: 50%;
+ }
+  #test{
+   font-family: 'Allura', cursive;
+     font-size: 18vw;
+     font-weight: lighter;
+  }
+  #menu_list{
+   margin-top:10px;
+     height: auto;
+     width: 100%;
+     justify-content: center;
+     display:inline-block;
+     
+  }
+  #program_list{
+     height: auto;
+     width: 100%;
+     justify-content: center;
+     display:inline-block;
+     
+  }
+  #line{
+   width: 100%;
+     height: 9%;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+     display: flex;
+  }
+  #line_menu{
+   width: fit-content;
+     height: auto;
+     justify-content: center;
+     align-items: center;
+     text-align: left;
+     display: flex;
+  }
+  #line:nth-child(odd) {
+     
+     border-radius: 25px;
+ }
+  #nadpis{
+     margin-top: -50px;
+     justify-content: center;
+     align-items: center;
+     display: flex;
+  }
+  #podpis{
+     justify-content: center;
+     align-items: center;
+     display: list-item;
+     margin-top: 40px;
+     margin-bottom: 60px;
+     padding-left: 50px;
+     padding-right: 50px;
+     text-align: center;
+  }
+  #content{
+     width:100%;
+     display: inline-flex;
+  }
+  #menu_content{
+   width:100%;
+   justify-content: center;
+   align-items: center;
+   display:grid;
+   
+}
+  #left{
+     width: calc(100%/3);
+     height: inherit;
+     justify-content: center;
+  }
+  #right{
+     width: calc(100%/3);
+     height: inherit;
+     justify-content: center;
+  }
+  #middle{
+     width: calc(100%/3);
+     display: flex;
+     justify-content: center;
+     height: 100%;
+     
+  }
+  #forste{
+     object-fit:fill;
+     min-width: 150%;
+     z-index: 1;
+  }
+  
+  #icon{
+   position: fixed;
+     height:40px;
+     width:40px;
+     border-radius: 50%;
+     z-index: 1;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     box-shadow: 2px 3px #ccccce;
+     animation:1s ease-in-out 2s slideout;
+     animation-name: example;
+     animation-iteration-count: 1;
+     
+  }
+  #icon_rest{
+   margin-top: 60px;;
+   position: fixed;
+     height:40px;
+     width:40px;
+     border-radius: 50%;
+     z-index: 1;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     box-shadow: 2px 3px #ccccce;
+     animation:1s ease-in-out 3s slideout;
+     animation-name: example;
+     animation-iteration-count: 1;
+     background-color: bisque;
+  }
+  #icon_beer{
+   margin-top: 120px;;
+   position: fixed;
+     height:40px;
+     width:40px;
+     border-radius: 50%;
+     z-index: 1;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     box-shadow: 2px 3px #ccccce;
+     animation:1s ease-in-out 4s slideout;
+     animation-name: example;
+     animation-iteration-count: 1;
+     background-color: bisque;
+  }
+  
+  @keyframes example {
+   0%   {}
+   50% {left:0px; top:0px;rotate: 360deg;scale: 10;}
+   100% {}
+ }
+  #icon_img{
+     object-fit:contain;
+     height: 60%;
+     width:60%;
+  }
+  #icon_img_1{
+   object-fit:contain;
+   height: 100%;
+   width:100%;
+}
+  ol
+{
+   list-style: disc;
+}
+  
